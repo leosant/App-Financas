@@ -1,16 +1,14 @@
 .Menu {
-    display: flex;
-    flex-basis: 250px;
+    
+    position: absolute;
+    width: 41px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
 
-    background: linear-gradient(#ff8700 60%, #ff000071);
+    background: linear-gradient(#202020, #3E3D45);
 
-    border-radius: 0px 40px 40px 0px;
-
-    /* Responsável por gerar sombras */
-    z-index: 1;
-    -webkit-box-shadow: 4px 0px 17px -5px rgba(0,0,0,0.75);
-    -moz-box-shadow: 4px 0px 17px -5px rgba(0,0,0,0.75);
-    box-shadow: 4px 0px 17px -5px rgba(0,0,0,0.75);
+    border-radius: 0px 12px 12px 0px;
 }
 
 .Menu nav {

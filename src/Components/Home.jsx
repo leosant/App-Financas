@@ -1,9 +1,12 @@
 import React from "react";
+import CardReport from './cards/CardReport';
+
+import './Home.css'
 
 const Home = props => {
     return (
         <div>
-            <h1>Bem vindo</h1>
+           <CardReport/>
         </div>
     )
 }

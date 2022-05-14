@@ -1,0 +1,40 @@
+.Card-report .Card .Box-saldo {
+    /* Ellipse 1 */
+    position: absolute;
+    width: 121px;
+    height: 107px;
+    left: 93px;
+    top: 50px;
+
+    background: rgba(255, 255, 255, 0.04);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+}
+
+.Card-report .Card .Box-receita {
+    position: absolute;
+    margin-left: 12.5em;
+    width: 121px;
+    height: 107px;
+    left: 93px;
+    top: 50px;
+
+}
+
+.Card-report .Card .Box-receita h2 {
+    color: #1E961B;
+}
+
+.Card-report .Card .Box-despesa {
+    position: absolute;
+    margin-left: 22.5em;
+    width: 121px;
+    height: 107px;
+    left: 93px;
+    top: 50px;
+
+}
+
+.Card-report .Card .Box-despesa h2 {
+    color: #86081F;
+}
