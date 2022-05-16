@@ -1,13 +1,12 @@
 import React from 'react';
 
-import errorSvg from '../assets/404.svg';
-import './PageError'
+import ErrorSvg from '../assets/404.svg';
 
 const PageError = props => {
     return (
         <div className="Error">
             <p>Opssss... Não consegui encotrar essa página!</p>
-            <img src={errorSvg} alt="Error default" />
+            <img src={ErrorSvg} alt="Error default" />
         </div>
     )
 }

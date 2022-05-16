@@ -1,8 +1,9 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import Home from '../Components/Home';
-import PageError from '../Components/PageError';
+import Home from '../pages/Home';
+import Wallets from '../pages/Wallets';
+import PageError from '../pages/PageError';
 
 
 import './Content.css'
@@ -14,6 +15,10 @@ const Content = props => {
 
                 <Route exact path="/">
                     <Home />
+                </Route>
+
+                <Route path="/wallets">
+                    <Wallets />
                 </Route>
 
                 <Route path="*">

@@ -3,13 +3,11 @@ import { BrowserRouter as Router } from 'react-router-dom';
 
 import Menu from '../routers/Menu';
 import Content from '../routers/Content';
-
-
-import './App.css';
+import Styles from '../styles/WebApp.module.css';
 
 const App = props => {
   return (
-    <div className="App">
+    <div className={Styles.App}>
       <Router>
         <Menu />
         <Content />

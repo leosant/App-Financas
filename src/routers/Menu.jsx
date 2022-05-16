@@ -11,24 +11,12 @@ const Menu = props => {
 
                 <ul>
                     <li>
-                        <Link to="/"></Link>
+                        <Link to="/">Dashboard</Link>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        <Link to="/mirrorDot"></Link>
-                    </li>
-                </ul>
-
-                <ul>
-                    <li>
-                        <Link to="/employerCreate"></Link>
-                    </li>
-                    <li>
-                        <Link to="/employerEdit"></Link>
-                    </li>
-                    <li>
-                        <Link to="/employerRemove"></Link>
+                        <Link to="/wallets">Carteiras</Link>
                     </li>
                 </ul>
 

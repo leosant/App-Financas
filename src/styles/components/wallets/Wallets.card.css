@@ -1,0 +1,70 @@
+h2, h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    line-height: 140%;
+}
+
+.Card {
+    position: absolute;
+    left: 147px;
+    width: 410px;
+    top: 336px;
+    height: 222px;
+
+    background: linear-gradient(180deg, #3C246D 0%, #4E318C 100%);
+    /* drop-shadow-black */
+
+    color: #FFFFFF;
+
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+
+.Card .Text-top {
+    position: absolute;
+    top: 0.5rem;
+    left: 1.2rem;
+}
+
+.Card .Text-top .Balance {
+    display: inline;
+    -webkit-text-stroke: 0.1px #000000;
+    margin-left: 19.5rem;
+    font-weight: 700;
+    font-size: 20px;
+    /* identical to box height, or 28px */
+
+    /* Linear/White */
+    color: #FFFFFF;
+}
+
+.Card .Text-top h3 {
+    margin: 2px 0px 0px 19rem;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.Card .Text-bottom {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 10rem;
+    left: 1.2rem;
+}
+
+.Card .Text-bottom p {
+    position: absolute;
+    font-weight: 300;
+    font-size: 14.2px;
+    bottom: 2.55rem;
+    opacity: 0.78;
+    -webkit-text-stroke: 0.1px #000000;
+}
+
+.Card .Text-bottom img {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    left: 21rem;
+    bottom: 22px;
+}

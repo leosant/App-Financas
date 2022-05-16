@@ -1,9 +1,23 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import ApiFinance from "../../services/ApiFinance"
 import FieldsReport from "./FieldsReport";
 
 import "./CardReport.css";
 
 const CardReport = props => {
+
+    const [accountBalance, setAccountBalance] = useState(0.0);
+
+    useEffect(() => {
+        ApiFinance.get("find").then((response) => {
+            if (response.status === 200) {
+                setAccountBalance(response.data[0].accountBalance)
+            }
+        });
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [])
+
+    const balance = props.accountBalance? props.accountBalance : "-";
 
     return (
         <div className="Card-report">
@@ -11,27 +25,31 @@ const CardReport = props => {
                 <FieldsReport
                     className="Box-saldo"
                     title="Saldo em conta"
-                    value="2000"
+                    value={balance}
                 />
                 <FieldsReport
                     className="Box-receita"
                     title="Receita"
-                    value="4000"
+                    value={props.recipe}
                 />
                 <FieldsReport
                     className="Box-despesa"
                     title="Despesa"
-                    value="2000"
+                    value={props.cost}
                 />
                 <div className="Text-bottom">
                     <p><span>R$55</span> próxima despesa -
                         <b> 03/05/22</b>
                     </p>
-                </div> 
+                </div>
             </div>
         </div>
 
     )
 }
+
+
+
+
 
 export default CardReport;
