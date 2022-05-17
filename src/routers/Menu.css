@@ -1,7 +1,11 @@
-.Menu {
-    
+h2 {
     position: absolute;
-    width: 41px;
+    color: #ffffff;
+}
+
+.Menu {  
+    position: absolute;
+    width: 300px;
     height: 1024px;
     left: 0px;
     top: 0px;
@@ -27,13 +31,21 @@
 
 .Menu li a{
     flex: 1;
+    margin: 80px 0px 0px 10px;
     padding: 10px;
     text-decoration: none;
     color: #000000;
 }
 
 .Menu li a:hover {
-    background-color: #FFC10750;
+    background-color: #05050450;
 }
 
+.Menu .Dashboard {
 
+}
+
+.Menu img {
+    width: 25px;
+    height: 25px;
+}

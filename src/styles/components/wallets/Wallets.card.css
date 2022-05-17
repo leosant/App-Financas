@@ -11,7 +11,7 @@ h2, h3 {
     top: 336px;
     height: 222px;
 
-    background: linear-gradient(180deg, #3C246D 0%, #4E318C 100%);
+    /* background: linear-gradient(180deg, #3C246D 0%, #4E318C 100%); */
     /* drop-shadow-black */
 
     color: #FFFFFF;
@@ -52,11 +52,15 @@ h2, h3 {
     left: 1.2rem;
 }
 
+.Card .Text-bottom h2 {
+    position: inherit;
+}
+
 .Card .Text-bottom p {
-    position: absolute;
+    display: contents;
     font-weight: 300;
     font-size: 14.2px;
-    bottom: 2.55rem;
+    bottom: 5.55rem;
     opacity: 0.78;
     -webkit-text-stroke: 0.1px #000000;
 }
@@ -66,5 +70,5 @@ h2, h3 {
     height: 30px;
     width: 30px;
     left: 21rem;
-    bottom: 22px;
+    bottom: -35px;
 }
