@@ -5,17 +5,14 @@ h2, h3 {
 }
 
 .Card {
-    position: absolute;
-    left: 147px;
-    width: 410px;
-    top: 336px;
-    height: 222px;
-
-    /* background: linear-gradient(180deg, #3C246D 0%, #4E318C 100%); */
-    /* drop-shadow-black */
-
+    position: relative;
+    top: 300px;
+    max-width: 410px;
+    min-width: 410px;
+    max-height: 222px;
+    min-height: 222px;
     color: #FFFFFF;
-
+    /* drop-shadow-black */
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
     border-radius: 12px;
 }

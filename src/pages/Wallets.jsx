@@ -12,14 +12,14 @@ const Wallets = props => {
 
     useEffect(() => {
         listAllWallets().then(({ data }) => {
-            setAccountBalance(data.accountBalance)
+            setAccountBalance(data[0].accountBalance)
         });
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
 
     return (
-        <div>
+        <div className='Default'>
             <BtAddWallets />
             <div className='Text-wallets'>
                 <h2>Carteiras</h2>

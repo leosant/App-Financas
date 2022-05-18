@@ -1,10 +1,14 @@
+.Default {
+    position: relative;
+    margin-left: 100px;
+}
+
 .Text-wallets h2 {
+    position: relative;
     display: flex;
     flex-direction: column-reverse;
-    position: absolute;
-    width: 1104px;
+    width: 1304px;
     height: 0px;
-    left: 149px;
     top: 300px;
     opacity: 0.5;
     border: 1px solid rgba(0, 0, 0, 0.3);
