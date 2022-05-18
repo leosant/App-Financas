@@ -1,12 +1,8 @@
 .Menu {  
     position: absolute;
-    width: 300px;
+    width: 270px;
     height: 1024px;
-    left: 0px;
-    top: 0px;
-
     background: linear-gradient(#202020, #3E3D45);
-
     border-radius: 0px 12px 12px 0px;
 }
 
@@ -16,33 +12,57 @@
 
 .Menu ul {
     list-style: none;
-    padding: 0;
-    color: #ffffff;
+}
 
+.Menu ul:hover {
+    transition: 0.2s;
+    opacity: 0.5;
+}
+
+.Menu ul:active {
+    transform: scale(0.95);
+    box-shadow: 25px 0px 25px 0px rgba(90, 30, 201, 0.25);
 }
 
 .Menu li {
     display: flex;
-}
-
-.Menu li a{
     flex: 1;
-    margin: 80px 0px 0px 10px;
-    padding: 10px;
-    text-decoration: none;
-    color: #000000;
+    margin-top: 200px;
+    padding: 0px;
 }
 
-.Menu li a:hover {
-    background-color: #05050450;
+.Menu li a {
+    text-decoration: none;
+    color: #ffffff;
 }
+
 
 .Menu .Dashboard {
-    color: #ffffff;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.Menu .Dashboard h2 {
+    position: relative;
+    left: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    bottom: 15px;
 }
 
 .Menu .Wallets {
-    color: #ffffff;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.Menu .Wallets h2 {
+    position: relative;
+    left: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    bottom: 15px;
 }
 
 .Menu img {

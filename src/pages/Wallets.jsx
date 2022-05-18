@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import CardWallets from '../components/wallets/CardWallets'
 import BtAddWallets from '../components/wallets/BtAddWallets';
 import { listAllWallets } from '../services/finance/ApiFinance';
+import BgRoom from '../assets/bgroom.png';
 
 import '../styles/components/wallets/Wallets.css';
 
@@ -29,6 +30,9 @@ const Wallets = props => {
                 balance={accountBalance}
                 nameBank="Carteira"
             />
+            <div className='Bgroom'>
+                <img src={BgRoom} alt='Bgroom' />
+            </div> 
         </div>
 
     )
