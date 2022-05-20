@@ -1,40 +1,39 @@
-.Card-report .Card .Box-saldo {
-    /* Ellipse 1 */
-    position: absolute;
-    width: 121px;
-    height: 107px;
-    left: 93px;
-    top: 50px;
+.CardDashboard .Box-saldo {
+    position: relative;
+    left: 5%;
+    max-width: 120px;
+    min-width: 120px;
+    max-height: 105px;
+    min-height: 105px;
 
     background: rgba(255, 255, 255, 0.04);
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
     border-radius: 100px;
 }
 
-.Card-report .Card .Box-receita {
-    position: absolute;
-    margin-left: 12.5em;
-    width: 121px;
-    height: 107px;
-    left: 93px;
-    top: 50px;
-
+.CardDashboard .Box-receita {
+    position: relative;
+    left: 20%;
+    max-width: 120px;
+    min-width: 120px;
+    max-height: 105px;
+    min-height: 105px;
 }
 
-.Card-report .Card .Box-receita h2 {
+.CardDashboard .Box-receita h2 {
     color: #1E961B;
 }
 
-.Card-report .Card .Box-despesa {
-    position: absolute;
-    margin-left: 22.5em;
-    width: 121px;
-    height: 107px;
-    left: 93px;
-    top: 50px;
+.CardDashboard .Box-despesa {
+    position: relative;
+    left: 35%;
+    max-width: 120px;
+    min-width: 120px;
+    max-height: 105px;
+    min-height: 105px;
 
 }
 
-.Card-report .Card .Box-despesa h2 {
+.CardDashboard .Box-despesa h2 {
     color: #86081F;
 }
