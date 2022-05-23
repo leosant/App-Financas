@@ -4,7 +4,7 @@ export async function listAllWallets() {
 
     try 
     {
-        return await Axios.apiFinanceWallets.get('/find');
+        return await Axios.apiFinanceWallets.get('/find-wallets');
     }
     catch (err)
     {
