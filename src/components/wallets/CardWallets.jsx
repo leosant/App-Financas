@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Ico from '../../assets/mastercard.svg';
+
 import '../../styles/components/wallets/Wallets.card.css';
 
 const CardWallets = props => {
@@ -12,7 +13,7 @@ const CardWallets = props => {
 
         <div className='Card' style={{
             background:props.colorCard || '#b7b7b7'
-            }}>
+            }} >
             <div className='Text-top'>
                 <h2 className='Balance'>Saldo</h2>
                 <h3>R$ {balance}</h3>

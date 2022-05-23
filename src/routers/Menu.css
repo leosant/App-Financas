@@ -1,7 +1,7 @@
 .Menu {  
     position: absolute;
-    width: 270px;
-    height: 1024px;
+    width: 250px;
+    height: 1103px;
     background: linear-gradient(#202020, #3E3D45);
     border-radius: 0px 12px 12px 0px;
 }
@@ -21,7 +21,7 @@
 
 .Menu ul:active {
     transform: scale(0.95);
-    box-shadow: 25px 0px 25px 0px rgba(90, 30, 201, 0.25);
+    box-shadow: 25px 0px 25px 0px rgba(215, 215, 216, 0.25);
 }
 
 .Menu li {

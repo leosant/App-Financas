@@ -15,6 +15,24 @@
     border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-.Default .Bgroom {
-    margin: 70px 0px 0px 740px;
+.Pagination-wallets {
+    position: relative;
+    top: 18rem;
+    min-width: 81.5rem;
+    max-width: 81.5rem;
+    max-height: 39.5rem;
+    min-height: 39.5rem;
+}
+
+.Pagination-wallets #Wallet-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Bgroom {
+    margin: -21.8rem 45rem 0rem 45rem;
+    width: 50rem;
+    height: 40rem;
+    background-image: url('../../../assets/bgroom.png');
+    background-repeat: no-repeat;
 }

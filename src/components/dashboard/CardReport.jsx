@@ -33,12 +33,13 @@ const CardReport = props => {
                 value={props.cost}
             />
 
-            <div className="Text-bottom">
-                <p><span>R$55</span> próxima despesa -
-                    <b> 03/05/22</b>
+            <div className="Text-bottom" >
+
+                <p id="Text-notification"><span>R$55</span> próxima despesa -
+                        <b> 03/05/22</b>
                 </p>
             </div>
-
+            
         </div>
 
     )
