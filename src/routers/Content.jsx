@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 
 import Home from '../pages/Home';
 import Wallets from '../pages/Wallets';
+import CreateWallet from '../pages/CreateWallet';
 import PageError from '../pages/PageError';
 
 
@@ -19,6 +20,10 @@ const Content = props => {
 
                 <Route path="/wallets">
                     <Wallets />
+                </Route>
+
+                <Route path="/create-wallet">
+                    <CreateWallet />
                 </Route>
 
                 <Route path="*">
