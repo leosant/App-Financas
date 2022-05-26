@@ -6,7 +6,7 @@ import '../styles/components/wallets/Wallets.createWallet.css';
 const CreateWallet = props => {
 
     return (
-        <form className='Form-account'>
+        <div className='Form-account'>
             
             <h2>Adicionar nova conta</h2>
 
@@ -21,24 +21,23 @@ const CreateWallet = props => {
                 <span>Valor inicial</span>
             </div>
 
-            <div className='Form-radios'>
-                <input type='radio'></input>
-                <input type='radio'></input>
-                <input type='radio'></input>
-                <input type='radio'></input>
-                <input type='radio'></input>
+            <div className='Form-buttons'>
+                <button id="Black"/>
+                <button id="Orange"/>
+                <button id="Purple"/>
+                <button id="Green"/>
+                <button id="Red"/>
                 <label>Cor da conta</label>
             </div>
 
-            <div>
-                <label class="switch">
-                    <input type="checkbox" />
-                    <span class="slider">Visível</span>
-                </label>
+            <div className='Form-switch'>
+                <input id="Toggle" className='Toggle' type="checkbox" />
+                <label for="Toggle" />
+                <label id="Name-Toggle">Visível</label>
             </div>
 
             <button>Adicionar</button>
-        </form>
+        </div>
     );
 
 }
